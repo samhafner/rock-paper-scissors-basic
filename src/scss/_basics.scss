@@ -1,0 +1,71 @@
+
+body {
+    background-color: #252631;
+    color: white;
+    font-family: 'Asap', sans-serif;
+    box-sizing: border-box;
+}
+
+.choices-row {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    div {
+        cursor: pointer;
+        border: 5px solid white;
+        border-radius: 50%;
+
+        img {
+            padding: 1rem;
+        }
+    }
+
+}
+
+.reset-container {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-btn {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 1.6rem; 
+    padding: 0.25rem;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 7px;
+
+    &:hover {
+        color: #252631;
+        background-color: white;
+    }
+}
+
+.chosen {
+    margin-top: 2rem;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+
+    > div {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
+
+.result {
+    font-size: 3rem;
+    text-align: center;
+}
+

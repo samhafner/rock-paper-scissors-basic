@@ -1,0 +1,30 @@
+.score-board {
+    border: 2px solid white;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2rem;
+    position: relative;
+    padding: 1rem;
+
+}
+
+.badge {
+    background-color: #E2584D;
+    font-size: 1rem;
+    padding: 0.2rem;
+}
+
+#user-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#computer-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
