@@ -21,6 +21,18 @@ body {
   padding: 1rem;
 }
 
+@media screen and (max-width: 520px) {
+  .choices-row {
+    gap: 1rem;
+  }
+  .choices-row div {
+    border-width: 3px;
+  }
+  .choices-row div img {
+    width: 50px;
+    height: 50px;
+  }
+}
 .reset-container {
   display: flex;
   justify-content: center;
@@ -54,11 +66,25 @@ body {
   align-items: center;
 }
 
+@media only screen and (max-width: 520px) {
+  .chosen {
+    gap: 3rem;
+  }
+  .chosen img {
+    width: 80px;
+    height: 80px;
+  }
+}
 .result {
   font-size: 3rem;
   text-align: center;
 }
 
+@media only screen and (max-width: 520px) {
+  .result {
+    font-size: 1.5rem;
+  }
+}
 .score-board {
   border: 2px solid white;
   width: 200px;
